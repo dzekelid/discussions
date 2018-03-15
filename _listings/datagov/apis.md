@@ -28,7 +28,7 @@ apis:
   tags: Discussions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/discussions/master/_listings/datagov/discussions-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/discussions/master/_listings/datagov/discussions-id-post.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
