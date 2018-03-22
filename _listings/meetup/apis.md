@@ -14,9 +14,9 @@ tags:
 - Meetups
 - Media
 - Events
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/discussions/master/_listings/meetup/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/meetup/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Meetup
@@ -28,7 +28,7 @@ apis:
   tags: Discussions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/discussions/master/_listings/meetup/urlname-boards-bid-discussions-did-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/meetup/urlname-boards-get.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
