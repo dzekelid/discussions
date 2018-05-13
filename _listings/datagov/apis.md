@@ -29,15 +29,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/datagov/organizations-org-discussions-get.md
-- name: Data.gov API Add Discussions
-  description: Add comment and optionnaly close a discussion given its ID
+- name: Data.gov API Get Me Org Discussions
+  description: List all discussions related to my organizations
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Discussions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/datagov/discussions-id-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/datagov/me-org-discussions-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/datagov/me-org-discussions-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
