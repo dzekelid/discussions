@@ -29,15 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/meetup/urlname-boards-bid-discussions-did-get.md
-- name: Meetup Discussions
-  description: Listings of group discussions
+- name: Meetup Discussion Posts
+  description: Listing Group discussion posts
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Discussions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/meetup/urlname-boards-bid-discussions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/meetup/urlname-boards-bid-discussions-did-get.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
