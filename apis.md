@@ -5,14 +5,14 @@ description: This is a repository of discussions APIs, self-contained as a Githu
   operations.
 image: http://template.streamdata.gallery/assets/discussions.png
 created: "2018-02-24"
-modified: "2018-05-20"
+modified: "2018-06-18"
 url: http://discussions.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
 tags: Discussions
 include:
 - name: Data.Gov
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/datagov/apis.yaml
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/data-gov/apis.yaml
 - name: Meetup
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/meetup/apis.yaml
 - name: Reddit
