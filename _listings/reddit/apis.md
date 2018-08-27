@@ -7,33 +7,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddi
 x-kinRank: "9"
 x-alexaRank: "6"
 tags: Discussions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/reddit/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Reddit Get Subreddit Wiki Discussions Page
-  x-api-slug: reddit
-  description: Retrieve a list of discussions about this wiki page
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
-  humanURL: http://www.reddit.com
-  baseURL: https://www.reddit.com///{/r/subreddit}/wiki/discussions/page
-  tags: Subreddit, Wiki, Discussions, Page
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/reddit/rsubredditwikidiscussionspage-getnbsp-openapi.md
-- name: Reddit
-  x-api-slug: reddit
-  description: Reddit is a community of millions of users engaging in the creation
-    of content and the sharing of conversation across tens of thousands of topics.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
-  humanURL: http://www.reddit.com
-  baseURL: https://www.reddit.com//
-  tags: Discussions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/reddit/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://rebilly.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://reddit.stack.network
 - type: x-authentication
   url: https://github.com/reddit/reddit/wiki/OAuth2
 - type: x-base
