@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Discussions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/data-gov/apis.md
 specificationVersion: "0.14"
 apis:
@@ -30,6 +30,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/data-gov/discussions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/data-gov/discussions-get-openapi.md
+- name: Data.gov API - Add Discussions
+  x-api-slug: discussions-post
+  description: Create a new Discussion
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/data-gov/discussions-post-openapi.md
 - name: Data.gov API - Delete Discussions
   x-api-slug: discussionsid-delete
   description: Delete a discussion given its ID
@@ -56,6 +67,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/data-gov/discussionsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/data-gov/discussionsid-get-openapi.md
+- name: Data.gov API - Add Discussions
+  x-api-slug: discussionsid-post
+  description: Add comment and optionnaly close a discussion given its ID
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/discussions/master/_listings/data-gov/discussionsid-post-openapi.md
 - name: Data.gov API - Get Me Org Discussions
   x-api-slug: meorg-discussions-get
   description: List all discussions related to my organizations

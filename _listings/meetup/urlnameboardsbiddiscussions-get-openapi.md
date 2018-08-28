@@ -39,6 +39,18 @@ paths:
       tags:
       - Events
       - Discussions
+  /:urlname/boards/:bid/discussions/:did:
+    get:
+      summary: Discussion Posts
+      description: Listing Group discussion posts
+      operationId: boards
+      x-api-path-slug: urlnameboardsbiddiscussionsdid-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Discussions
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
